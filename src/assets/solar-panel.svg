@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="solar-panel">
+  <g>
+    <rect width="3" height="7" x="13" y="42" fill="#57565c"></rect>
+    <polygon fill="#e0e0e2" points="13 47.83 16 44.83 16 56 13 56 13 47.83"></polygon>
+    <rect width="23.999" height="4.002" x="1" y="40.999" fill="#00e7f0" transform="rotate(-45 13 43)"></rect>
+    <rect width="7" height="7" x="11" y="54" fill="#3e3d42"></rect>
+    <circle cx="32" cy="13" r="6" fill="#ffda44"></circle>
+    <rect width="3" height="7" x="31" y="42" fill="#57565c"></rect>
+    <polygon fill="#e0e0e2" points="31 47.83 34 44.83 34 56 31 56 31 47.83"></polygon>
+    <rect width="7" height="7" x="29" y="54" fill="#3e3d42"></rect>
+    <rect width="3" height="7" x="51" y="42" fill="#57565c"></rect>
+    <polygon fill="#e0e0e2" points="51 47.83 54 44.83 54 56 51 56 51 47.83"></polygon>
+    <rect width="7" height="7" x="49" y="54" fill="#3e3d42"></rect>
+    <rect width="23.999" height="4.002" x="39" y="40.999" fill="#00e7f0" transform="rotate(-45 51 43)"></rect>
+    <rect width="23.999" height="4.002" x="19" y="40.999" fill="#00e7f0" transform="rotate(-45 31 43)"></rect>
+    <rect width="2" height="2" x="31" y="2" fill="#ff9811"></rect>
+    <rect width="2" height="2" x="38.071" y="4.929" fill="#ff9811" transform="rotate(-45 39.071 5.93)"></rect>
+    <rect width="2" height="2" x="41" y="12" fill="#ff9811"></rect>
+    <rect width="2" height="2" x="38.071" y="19.071" fill="#ff9811" transform="rotate(-45 39.07 20.071)"></rect>
+    <rect width="2" height="2" x="31" y="22" fill="#ff9811"></rect>
+    <rect width="2" height="2" x="23.929" y="19.071" fill="#ff9811" transform="rotate(-45 24.929 20.071)"></rect>
+    <rect width="2" height="2" x="21" y="12" fill="#ff9811"></rect>
+    <rect width="2" height="2" x="23.929" y="4.929" fill="#ff9811" transform="rotate(-45 24.929 5.93)"></rect>
+  </g>
+</svg>

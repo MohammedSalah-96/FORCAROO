@@ -1,0 +1,322 @@
+{
+  "preLoader": {
+    "typewriterHeadline": "forcaroo",
+    "typewriterDescription": "FOR SOLAR ENERGY"
+  },
+  "navLinks": {
+    "home": "Home",
+    "about": "About Us",
+    "projects": "Projects",
+    "services": "Services",
+    "products": "Products",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "homeSlider": {
+    "homeSliderTitles": [
+      "Engineering the Future of Solar Energy",
+      "Powering Homes with Clean Renewable Energy",
+      "Scaling Sustainability with Solar Technology"
+    ],
+    "homeSliderDescriptions": [
+      "Our engineers bring innovation and precision to every solar solution, building a brighter and smarter energy future.",
+      "Experience a cleaner lifestyle with solar-powered homes designed for efficiency, comfort, and sustainability.",
+      "From rooftops to large-scale arrays, our solar panel systems deliver dependable power with long-term environmental benefits."
+    ]
+  },
+  "aboutCompany": {
+    "title": "About Company",
+    "heading": "Leading the Way in Solar Energy Solutions",
+    "description": "We are a diversified and forward-thinking company specializing in general trading, sustainable energy solutions, and integrated logistics. Our mission is to connect markets, power communities, and streamline global supply chains through innovative, reliable, and responsible services. With a strong commitment to quality, efficiency, and environmental stewardship, we aim to create long-term value for our partners and contribute to a more sustainable and connected future across industries.",
+    "feature1": "Power communities with clean, renewable energy.",
+    "feature2": "Innovate solar solutions for a greener tomorrow.",
+    "feature3": "Ensure fast, flexible, and reliable logistics.",
+    "feature4": "Move goods efficiently across global markets.",
+    "watchVideo": "Watch Video"
+  },
+  "btnReadMore": "Read More",
+  "servicesCompany": {
+    "name": "Services",
+    "title": "Our Services",
+    "heading": "Comprehensive Solutions for a Sustainable Future",
+    "description": "As a multi-sector company, we provide a wide range of integrated services designed to meet the evolving needs of our clients in general trading, energy, and logistics. Our trading division sources and delivers high-quality products across global markets, ensuring competitive pricing and reliable supply. In the energy sector, we specialize in sustainable power solutions, with a strong focus on solar energy systems that promote cleaner, more efficient energy use. Through our logistics services, we offer end-to-end solutions that ensure the smooth and timely movement of goods—from warehousing and freight forwarding to last-mile delivery. With a commitment to innovation, operational excellence, and customer satisfaction, we serve as a trusted partner across industries and borders.",
+    "services": {
+      "energyDesign": {
+        "service": "Energy Design & Solutions",
+        "title": "Are You looking for Energy Solutions?",
+        "description": "FORCAROO SOLUTION has already taken significant steps to address our energy needs by solar panels or energy-efficient systems. We continuously evaluate new technologies and strategies to further improve our energy performance and sustainability efforts."
+      },
+      "solarEnergySupply": {
+        "service": "Solar Energy Supply",
+        "title": "You need Inverters, batteries or PV!",
+        "description": "FORCAROO SUPPLIERA is a trusted solar power supplier, providing high-quality inverters, batteries, and PV systems to meet your energy needs. Whether you're aiming to reduce electricity bills, achieve energy independence, or transition to clean, renewable energy, we have the products and expertise to help you succeed. Let us power your future with reliable and sustainable solar solutions!"
+      },
+      "solarPanelSolutions": {
+        "service": "Solar Panel Solutions",
+        "title": "Newest solar panels!",
+        "description": "As a leading solar panel supplier, FORCAROO SOLAR PANELS is proud to introduce our newest solar panels, designed to revolutionize the way you generate and use energy. Built with advanced technology and engineered for maximum efficiency, our panels are the perfect choice for homeowners, businesses, and industries looking to reduce energy costs, increase sustainability, and embrace the future of clean energy."
+      },
+      "solarInstallationServices": {
+        "service": "Solar Installation Services",
+        "title": "Call us to install your solar panels!",
+        "description": "FORCAROO INSTALLATION TEAM specializes in professional solar panel installation for homes and businesses. Our team of certified experts ensures a seamless transition to solar energy, helping you reduce electricity bills, increase property value, and contribute to a greener planet. Whether you're looking to power your home or business, we provide customized solutions tailored to your energy needs."
+      },
+      "afterSalesSolarSupport": {
+        "service": "After-Sales Solar Support",
+        "title": "Having trouble with inverters and batteries!",
+        "description": "FORCAROO AFTER SALES SERVICE understands that your solar power system is a long-term investment. That’s why we offer comprehensive after-sales services to keep your panels, inverters, and batteries operating at peak performance. From routine maintenance to emergency repairs, our team of certified technicians is here to provide the care and expertise your system deserves."
+      },
+      "evChargingSolutions": {
+        "service": "EV Charging Solutions",
+        "title": "How to charge my EV car?",
+        "description": "FORCAROO EV CAR is committed to supporting the electric vehicle revolution with cutting-edge EV chargers designed for homes, businesses, and public spaces. Our chargers are built for reliability, efficiency, and ease of use, ensuring you always have the power you need to stay on the move. Whether you're a homeowner, business owner, or fleet manager, we have the perfect EV charging solution for you."
+      },
+      "solarBatteryRecycling": {
+        "service": "Solar Battery Recycling",
+        "title": "Replace your tubular batteries with LifePo4!",
+        "description": "FORCAROO RECYCLING helps you get the most out of your solar investment by renewing and upgrading existing systems. Whether your solar panels, inverters, or batteries are outdated or underperforming, our expert team will modernize your setup with the latest technology, ensuring maximum efficiency, savings, and reliability. Let’s future-proof your solar power system together!"
+      }
+    }
+  },
+  "workProcess": {
+    "name": "Work Process",
+    "title": "Our Work Process",
+    "heading": "From Concept to Completion",
+    "description": "We follow a streamlined and strategic approach to ensure every project is delivered with precision and efficiency. From early consultation to final execution, each phase is built on collaboration, innovation, and reliability.",
+    "theProcess": {
+      "first": {
+        "title": "Project Planning",
+        "description": "Setting goals and timelines for a smooth start."
+      },
+      "second": {
+        "title": "Research & Analysis",
+        "description": "Evaluating needs to choose the best solution."
+      },
+      "third": {
+        "title": "Solar Installation",
+        "description": "Installing reliable systems with expert care."
+      }
+    }
+  },
+  "solarSavings": {
+    "name": "Solar Savings",
+    "title": "Benefits of Solar Energy",
+    "heading": "Why Choose Solar?",
+    "description": "Experience the benefits of clean and efficient solar energy:",
+    "advantages": {
+      "bill": "Financial Benefits",
+      "eco": "Eco-Friendly Impact",
+      "long": "Dependable Energy"
+    }
+  },
+  "projectsCompany": {
+    "hint": "Our Achievements",
+    "title": "Time To Grow",
+    "description": "more than +100 project",
+    "allProjects": "All Projects",
+    "projects": {
+      "project1": {
+        "customer": "Participation in BFZ projects in Erbil",
+        "location": "Erbil, Shorsh",
+        "inverter": "10kw hybrid",
+        "pv": "20pcs of 300watts",
+        "battery": "24pcs of 2v2000"
+      },
+      "project2": {
+        "customer": "Samani Darya CO.",
+        "location": "Erbil, Shekh Ahmed",
+        "inverter": "3pcs of 5.5KW hybrid High voltage",
+        "pv": "16pcs of 700watts",
+        "battery": "2 sets of 51.2v200ah LiPo4"
+      },
+      "project3": {
+        "customer": "Government Project",
+        "location": "Makhmoor",
+        "inverter": "14pcs of 5.5KW hybrid High PV voltage",
+        "pv": "128pcs of 410watts",
+        "battery": "128pcs of 12v200ah tublar"
+      },
+      "project4": {
+        "customer": "Lazya Market",
+        "location": "Erbil, fermanbaran",
+        "inverter": "50kw on grid",
+        "pv": "165pcs of 410watts",
+        "battery": "30pcs of 51.2v280ah LifePo4"
+      },
+      "project5": {
+        "customer": "Government Project",
+        "location": "Erbil, Sherwae",
+        "inverter": "13pcs of 5.5KW hybrid high PV voltage",
+        "pv": "142pcs of 410watts",
+        "battery": "15pcs of 51.2v280ah LifePo4"
+      }
+    }
+  },
+  "callBanner": {
+    "titleOne": "Need Expert Advice?",
+    "titleTwo": "Get It Here for Free",
+    "supportTxt": "Give us a call"
+  },
+  "whyChooseUs": {
+    "name": "Choose Us",
+    "title": "Reasons to Choose Us",
+    "heading": "Your Trusted Solar Partner",
+    "description": "At the heart of everything we do is a commitment to making clean, reliable energy accessible for everyone. We're not just installing solar systems—we're building a smarter, more sustainable future. Every day, we explore innovative ways to expand energy access and efficiency, empowering homes and businesses to thrive in a rapidly changing world. By combining expert knowledge, cutting-edge technology, and customer-focused service, we ensure you receive the highest quality solutions tailored to your unique needs. Because powering progress means not only meeting today's energy demands—but also preparing for tomorrow's possibilities.",
+    "specification": {
+      "first": {
+        "title": "Expert Installation",
+        "description": "Our certified technicians ensure every installation meets the highest standards for safety and performance."
+      },
+      "second": {
+        "title": "Low Cost Operation",
+        "description": "We help you minimize operational expenses with energy-efficient systems that save money long-term."
+      },
+      "third": {
+        "title": "Expert Solar Worker",
+        "description": "Our team of experienced solar professionals brings industry knowledge and hands-on skill to every project."
+      },
+      "fourth": {
+        "title": "Modern Technology",
+        "description": "We use cutting-edge solar technology to deliver maximum efficiency, reliability, and future-ready solutions."
+      }
+    }
+  },
+  "blog": {
+    "name": "Blog",
+    "title": "Our Blog",
+    "heading": "Insights & Innovations in Solar Energy and Logistics",
+    "description": "Explore in-depth articles and expert knowledge on solar systems, solar-powered technologies, and logistics solutions. Whether you're a business owner, a homeowner, or a tech enthusiast, our blog keeps you up to date with the latest innovations, trends, and sustainable practices shaping the future of energy and transport.",
+    "blogs": {
+      "first": {
+        "title": "Why Solar Energy Is the Future of Power",
+        "description": "In a world increasingly affected by climate change and rising energy costs, solar energy stands out as a beacon of hope for sustainable power generation. This post explores the reasons why solar energy is rapidly becoming the dominant source of renewable energy across the globe. We dive into how solar panels work, the falling costs of installation, and government incentives that are making solar more accessible. Learn how countries and businesses are transitioning to clean energy and how solar can provide energy independence for households and industries alike. The future of power is renewable, and solar is leading the charge.",
+        "deeperDescription": "The global demand for energy continues to rise, while traditional fossil fuels deplete and their environmental costs grow more severe. Solar energy, a clean and renewable resource, is emerging as one of the most scalable and impactful solutions to this crisis. This article breaks down how technological advancements in solar panel efficiency, battery storage, and grid integration are making solar energy not only viable but economically superior. It also looks into how developing nations are leapfrogging to solar power without needing to build large power plants or grid infrastructure. Finally, the post highlights the long-term economic, political, and environmental benefits that solar energy brings — from job creation to energy security and reduced greenhouse gas emissions."
+      },
+      "second": {
+        "title": "Top 5 Benefits of Installing a Solar System at Home",
+        "description": "Installing a solar system on your property isn't just about saving money on electricity — it's about making a long-term investment in sustainability and independence. In this comprehensive post, we highlight the top five benefits of switching to solar at home. From reducing your monthly utility bills and increasing your property value to cutting your carbon footprint and gaining protection against energy price volatility, we explain how going solar empowers homeowners to take control of their energy future. We'll also cover battery storage options and net metering to help you get the most out of your system.",
+        "deeperDescription": "Switching to solar energy at home offers more than just cost savings — it's a lifestyle change that brings both financial and environmental rewards. This in-depth post walks readers through the five core advantages: financial return on investment, protection from rising utility costs, property value increase, energy independence, and environmental impact. It also touches on newer trends like solar roof tiles and hybrid systems with battery backups. Homeowners will learn how federal tax incentives, local rebates, and net metering work to improve their ROI, and how installing solar today is about preparing for a more resilient future in the face of energy uncertainty."
+      },
+      "third": {
+        "title": "How to Maintain Your Solar Panel System for Maximum Efficiency",
+        "description": "Like any other piece of technology, solar panel systems need proper care to operate at their best. In this detailed guide, we walk you through the essential steps of maintaining a solar energy system. From regular panel cleaning techniques and seasonal inspections to inverter monitoring and performance checks, you'll learn how to extend the life of your investment and maximize its energy output. Whether you're a homeowner or a business operator, proper maintenance ensures your system continues to deliver peak performance year after year. We also include troubleshooting tips and advice on when to call in a professional.",
+        "deeperDescription": "Solar panels are designed to last for decades, but to ensure they continue to operate efficiently, regular maintenance is crucial. This article offers a full checklist of maintenance tips, from cleaning techniques and safety precautions to the importance of monitoring software and inverter health. It explains how dirt, leaves, bird droppings, and snow can reduce panel output and how to clean panels safely without damaging the surface. The guide also discusses how to spot system underperformance through monitoring systems and when to bring in professional technicians for diagnostics. Preventative care today ensures long-term savings and optimal energy production."
+      },
+      "fourth": {
+        "title": "The Rise of Solar-Powered Gadgets in Everyday Life",
+        "description": "The integration of solar power into consumer gadgets is revolutionizing how we interact with everyday devices. In this post, we showcase the growing world of solar-powered electronics — from garden lights and smartphone chargers to camping gear and even wearable tech. We explore how solar technology is being adopted by manufacturers and what it means for consumers who are looking to lower their energy consumption, especially in off-grid or emergency scenarios. You'll also get recommendations on the best solar gadgets currently available and how they can contribute to a more sustainable lifestyle.",
+        "deeperDescription": "From solar-powered garden lights to advanced wearables, consumer tech is rapidly embracing solar integration for convenience and sustainability. This article dives into how everyday gadgets are being powered by compact, efficient solar cells — reducing reliance on disposable batteries and grid electricity. Readers will discover how travelers, outdoor adventurers, and eco-conscious consumers are benefiting from solar power in unexpected places: backpacks with charging ports, self-powered security cameras, and even solar cooking devices. The post includes pros and cons of different product categories and tips for choosing quality solar gear that balances efficiency, durability, and cost."
+      },
+      "fifth": {
+        "title": "Must-Have Solar Devices for Off-Grid Living",
+        "description": "Living off-grid doesn't mean compromising on comfort or efficiency — thanks to solar-powered devices, it's easier than ever to thrive independently. This post takes you through a curated list of must-have solar devices designed for off-grid environments. We cover solar generators, lighting systems, cooking appliances, water heaters, and power banks. Each device is evaluated for reliability, performance, and practicality. Whether you're planning a remote cabin retreat or simply want to reduce your reliance on public utilities, these tools will help you maintain a self-sufficient lifestyle powered entirely by the sun.",
+        "deeperDescription": "Whether you're pursuing a self-sufficient lifestyle or preparing for emergencies, solar-powered devices offer practical solutions to modern off-grid challenges. This comprehensive post reviews top-tier off-grid equipment including solar power stations, water purification systems, solar cookers, and refrigeration units. It outlines how to set up a reliable off-grid solar system, including calculating your power needs, choosing panels and batteries, and ensuring redundancy in case of bad weather. Case studies from tiny home owners and homesteaders illustrate real-world use. The guide empowers readers with the knowledge to build or upgrade an off-grid life without giving up comfort or connectivity."
+      },
+      "sixth": {
+        "title": "How Solar Devices Are Empowering Remote Communities",
+        "description": "Access to reliable electricity remains a challenge in many parts of the world, but solar-powered devices are bridging the gap. In this deeply informative post, we examine how solar technology is transforming the lives of people in rural and underserved areas. From portable solar lanterns to water purification units and mobile phone chargers, we highlight real-world case studies where solar power has brought education, healthcare, and entrepreneurship to remote regions. Learn how NGOs, governments, and tech innovators are collaborating to create life-changing impact through sustainable energy solutions.",
+        "deeperDescription": "Across the globe, millions still live without access to reliable electricity, limiting their access to education, healthcare, and economic opportunity. This article explores how solar devices are making an impact in rural and underserved regions. Through stories from Africa, Asia, and Latin America, we highlight how solar lanterns enable children to study at night, how solar-powered refrigerators store life-saving vaccines, and how mobile solar kiosks support local entrepreneurs. Partnerships between NGOs, local governments, and tech firms are scaling these innovations. Readers will gain insight into how affordable solar tech is changing lives at the grassroots level and why it's a key driver in global development."
+      },
+      "seventh": {
+        "title": "Logistics & Renewable Energy: A Smart Partnership",
+        "description": "The logistics industry is under increasing pressure to reduce emissions while maintaining efficiency — and renewable energy is becoming a key part of the solution. In this post, we explore how solar energy is being integrated into logistics operations to power everything from distribution centers to delivery vehicles. You'll discover how solar panels are being installed on warehouses, fueling off-grid mobile stations, and supporting the electrification of last-mile delivery fleets. We also discuss the role of data and automation in creating greener, smarter logistics systems powered by sustainable energy.",
+        "deeperDescription": "The transportation and logistics sector is responsible for a significant share of global carbon emissions — and companies are under pressure to evolve. This post explains how solar energy is being used in warehouse rooftops, mobile charging stations, and even onboard solar arrays for trucks. It discusses the cost savings and resilience benefits that come from decentralizing power with renewables. We explore how major logistics players like DHL and UPS are investing in solar to power sorting centers and recharge electric delivery fleets. Through technical insights and business case studies, the article shows how renewable energy isn't just good for the planet — it's good for business logistics too."
+      },
+      "eighth": {
+        "title": "Eco-Friendly Delivery: Greening the Last Mile",
+        "description": "The 'last mile' in logistics — the final step of delivering a product to the customer — is often the most polluting and inefficient part of the supply chain. In this post, we delve into how solar-powered vehicles, e-bikes, and sustainable packaging are changing the game for eco-friendly delivery. Learn how companies are using solar charging stations, route optimization, and electric mobility to reduce their carbon footprint and improve customer satisfaction. With e-commerce growing fast, the demand for green delivery solutions is higher than ever — and solar power is helping lead the way.",
+        "deeperDescription": "As e-commerce booms, the last mile becomes a major challenge for sustainability. This article explores innovative solar-powered solutions that address the environmental toll of final-mile deliveries. Topics include solar-charged electric bikes and scooters, decentralized solar charging hubs in urban areas, and the role of route optimization software in reducing fuel consumption. Readers will learn how businesses are integrating solar into delivery operations, balancing efficiency with eco-consciousness. The post also looks ahead to what city logistics may look like in the future — with green zones, drone deliveries, and fully electrified solar fleets shaping a cleaner delivery ecosystem."
+      },
+      "ninth": {
+        "title": "The Future of Logistics: Automation Meets Clean Energy",
+        "description": "What happens when cutting-edge logistics automation meets clean, renewable energy? A revolution. This blog post takes a forward-looking approach to how the logistics industry is evolving with AI, robotics, and solar power. From solar-powered autonomous vehicles and drones to smart warehouses with AI-driven inventory management systems, we explore how these technologies are converging to build more efficient, sustainable, and responsive supply chains. This is more than just innovation — it’s the blueprint for the future of logistics in a world that demands speed and environmental responsibility.",
+        "deeperDescription": "Logistics is being redefined by the convergence of automation, AI, and clean energy sources like solar. This post paints a picture of the future, where smart warehouses are powered by rooftop solar, robotic arms sort packages with AI precision, and autonomous delivery drones are charged via solar docking stations. We explore the environmental and operational benefits of merging clean power with automation — including reduced energy costs, higher throughput, and faster service. Examples from Amazon, Tesla, and emerging startups show how these technologies are already in motion. The article concludes with thoughts on regulatory trends, job transformation, and how businesses can begin their transition today."
+      }
+    }
+  },
+  "factsCounter": {
+    "installedPanels": "Installed Panels",
+    "devicesDeployed": "Devices Deployed",
+    "happyClients": "Happy Clients"
+  },
+  "trustedBanner": {
+    "title": "Your Trusted Energy Partner",
+    "description": "12,000+ Customer Reviews",
+    "feature1": {
+      "title": "Financial Savings",
+      "description": "Cut energy costs with efficient solar solutions delivering long-term savings."
+    },
+    "feature2": {
+      "title": "Well Experienced",
+      "description": "Skilled team delivers reliable solar solutions with proven expertise."
+    }
+  },
+  "trustedPartners": {
+    "name": "Partners",
+    "title": "Trusted Partners",
+    "heading": "Our Valued Collaborators",
+    "description": "We are proud to collaborate with industry-leading partners who share our commitment to quality, innovation, and sustainability. Our trusted partners provide us with cutting-edge technology, reliable products, and expert support that enable us to deliver exceptional solar energy solutions and logistics services to our clients. Together, we work towards a common goal of driving progress and creating a more sustainable future for all."
+  },
+  "footer": {
+    "description": "Driving progress through smart trading, clean energy, and seamless logistics—powering businesses with efficiency and purpose.",
+    "contactus": "Conatct Us",
+    "address": "Iraq, Kurdistan, Erbil",
+    "navigation": "Navigation",
+    "ourservices": "Our Services",
+    "copyright": "Copyright All rights reserved | Developed with ❤️ by"
+  },
+  "aboutPage": {
+    "title": "About Us",
+    "FORCAROOCompany": "forcaroo Company",
+    "description": "Established since 2018. It’s the development of a group of engineers and professionals who scientifically studied practically for the necessities of electricity of the Iraqis and Kurdistan regional populations which finally founds the solar power as the best solutions for them and the environment approachable."
+  },
+  "servicesPageTitle": "Our Services",
+  "projectsPage": {
+    "title": "Our Projects",
+    "heading": "Our Work in Action",
+    "description": "We take pride in every solar energy project we undertake, bringing innovation, expertise, and sustainability to life. Our portfolio showcases a wide range of successful installations, from residential solar solutions to large-scale commercial systems. Each project reflects our commitment to quality, efficiency, and customer satisfaction. We work closely with clients to understand their energy needs and tailor solutions that optimize performance and maximize savings. With a focus on reliability and cutting-edge technology, our projects not only reduce energy costs but also contribute to a cleaner, more sustainable planet. Explore our work and discover how we’re powering the future, one project at a time."
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "heading": "Get in Touch",
+    "description": "We are here to help you take the first step towards a sustainable future. Whether you are interested in learning more about our solar energy solutions, have questions about installation, or want to discuss how we can tailor a system to fit your needs, our team is ready to assist. Reach out today and let is start your journey to cleaner, more efficient energy.",
+    "contactForm": {
+      "phone": "Phone",
+      "phoneDescription": "Call us anytime for support or inquiries.",
+      "email": "Email",
+      "emailDescription": "Reach out via email for quick assistance.",
+      "address": "Address",
+      "addressDescription": "Visit our office—we'd love to meet you!",
+      "addressCompany": "Iraq, Kurdistan, Erbil, Sultan Mudhafar St.",
+      "fullname": "Fullname",
+      "fullnameRequired": "Fullname is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email is invalid",
+      "phoneRequired": "Phone is required",
+      "subject": "Subject",
+      "subjectRequired": "Subject is required",
+      "message": "Message",
+      "messageRequired": "Message is required",
+      "sendBtn": "Send",
+      "successMsg": "Your Message Has Been Sent Successfully.",
+      "errorMsg": "Something Went Wrong! Please Try Again."
+    }
+  },
+  "productsCompany": {
+    "title": "Our Products",
+    "heading": "Best in the Industry",
+    "description": "Discover our comprehensive range of high-quality solar energy products, designed to deliver exceptional performance, durability, and efficiency. From advanced solar panels and inverters to innovative energy storage solutions and mounting systems, each product is carefully selected to meet the highest international standards. We partner with trusted manufacturers to ensure reliability, cutting-edge technology, and long-term value for our customers. Whether for residential, commercial, or industrial applications, our products are built to optimize energy output, reduce costs, and support a cleaner, sustainable future. Explore our catalog and find the perfect solution to power your world.",
+    "products": {
+      "sunergy": "Manufacturer of high-performance monocrystalline and polycrystalline solar panels designed for maximum energy output, long lifespan, and consistent performance in all weather conditions.",
+      "afore": "Specialist in advanced solar inverters offering high efficiency, remote monitoring, and smart grid compatibility for residential, commercial, and industrial solar systems.",
+      "blueCarbon": "Provider of complete solar solutions including lithium battery storage, inverters, and integrated energy systems for reliable off-grid and hybrid applications.",
+      "camel": "Renowned battery manufacturer producing deep-cycle batteries and energy storage systems designed for solar power backup and long-lasting performance.",
+      "deye": "Global leader in hybrid and grid-tied inverters, energy storage systems, and solar water pumping solutions, known for innovation and reliability.",
+      "sunrich": "Manufacturer of efficient solar lighting systems, controllers, and photovoltaic components for both residential and commercial projects.",
+      "voltronicPower": "Developer of power conversion products including solar inverters, UPS systems, and hybrid energy solutions for stable and efficient power supply.",
+      "yhSunpro": "Supplier of complete solar panel kits, mounting structures, and energy accessories for quick installation and long-term sustainable energy generation."
+    },
+    "view": "view",
+    "download": "download"
+  }
+}

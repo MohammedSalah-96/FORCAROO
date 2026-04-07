@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" class="pxl-item--cube pxl-position-tl pxl-hidden-xs pxl-hidden-sm pxl-hidden-md pxl-hidden-lg  " width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.5" y="2.5" width="11" height="11" transform="rotate(45 7.5 7.5)" fill="#FFC80B">
+<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 7.5 7.5" to="360 7.5 7.5" dur="5s" repeatCount="indefinite" fill="#FFC80B"></animateTransform>
+</rect>
+</svg>
