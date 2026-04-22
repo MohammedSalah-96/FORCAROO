@@ -1,5 +1,5 @@
 import SliderOne from "@/assets/08.jpg";
-import SliderTwo from "@/assets/hero2.jpg";
+import SliderTwo from "@/assets/06.jpg";
 import SliderThree from "@/assets/09.jpg";
 
 import Partner1 from "@/assets/partner-longi.svg";

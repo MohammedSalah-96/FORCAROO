@@ -10,7 +10,8 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			colors: {
-				forcarooLightGreen: '#4aab3d',
+				forcarooLightGreen: '#00adae',
+				// forcarooLightGreen: '#4aab3d',
 				forcarooText: '#1F1F25',
 				forcarooTextLight: '#74787C',
 				forcarooYellow: '#FFC80B',

@@ -1,6 +1,7 @@
 import AboutCompany from "../components/AboutCompany";
 import BlogCompany from "../components/BlogCompany";
 import CallBanner from "../components/CallBanner";
+import Emulator from "../components/Emulator";
 import FactsCounter from "../components/FactsCounter";
 import HomeCarousel from "../components/HomeCarousel";
 import ProductsCompany from "../components/ProductsCompany";
@@ -12,6 +13,8 @@ import TrustedPartners from "../components/TrustedPartners";
 import HomeWhyChooseUs from "../components/WhyChooseUs";
 import WorkProcess from "../components/WorkProcess";
 
+import ShareSolarMap from "../components/ShareSolarMap";
+
 const home = () => {
   return (
     <section>
@@ -21,8 +24,10 @@ const home = () => {
       <TrustedBanner />
       <ProductsCompany />
       <ServicesCompany />
+      <Emulator />
       <WorkProcess />
       <SolarSavings />
+      <ShareSolarMap />
       <BlogCompany />
       <HomeWhyChooseUs />
       <FactsCounter />

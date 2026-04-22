@@ -318,5 +318,26 @@
     },
     "view": "view",
     "download": "download"
+  },
+  "shareSolarMap": {
+    "name": "Solar Map",
+    "title": "Live Installation Map",
+    "heading": "Interactive Global Impact",
+    "description": "Explore our real-world solar footprint across the globe. We have successfully shared over 500 MW of clean energy across our growing network of international projects.",
+    "legendTitle": "Our Global Presence"
+  },
+  "emulator": {
+    "name": "Emulator",
+    "title": "Solar Savings Calculator",
+    "heading": "Estimate Your Solar Savings",
+    "description": "Use our solar savings calculator to estimate how much you can save by switching to solar energy. Simply enter your location, average monthly electricity usage, and current energy costs to see your potential savings and environmental impact. This tool helps you understand the financial benefits of going solar and how it contributes to a greener future.",
+    "location": "Location",
+    "usage": "Average Monthly Usage (kWh)",
+    "cost": "Current Energy Cost ($/kWh)",
+    "calculateBtn": "Calculate Savings",
+    "savingsResult": {
+      "annualSavings": "Estimated Annual Savings: ",
+      "co2Reduction": "Estimated CO2 Reduction: "
+    }
   }
 }

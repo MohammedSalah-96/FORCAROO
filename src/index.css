@@ -13,8 +13,8 @@
 
 :root {
   font-family: "Exo", "Open Sans", sans-serif;
-  --forcarooLightGreen: #4aab3d;
-  --color-forcarooLightGreen-lightest: #edf6eb;
+  --forcarooLightGreen: #00adae;
+  --color-forcarooLightGreen-lightest: #00adae1a;
 }
 
 /* TEST THESE COLORS */
@@ -158,7 +158,7 @@ body {
 }
 
 .popup-video-btn::before {
-  border: 1px solid var(--forcarooLightGreen);
+  border: 2px solid var(--forcarooLightGreen);
   content: "";
   position: absolute;
   z-index: 0;
@@ -202,8 +202,8 @@ body {
   background-image: url("./assets/texture24.png");
 }
 
-.work-process-details:nth-child(1)::after,
-.work-process-details:nth-child(2)::after {
+.work-process-steps > div:nth-child(1) .work-process-details::after,
+.work-process-steps > div:nth-child(2) .work-process-details::after {
   content: "";
   display: none;
   position: absolute;
@@ -234,31 +234,31 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .work-process-details:nth-child(1)::after,
-  .work-process-details:nth-child(2)::after {
+  .work-process-steps > div:nth-child(1) .work-process-details::after,
+  .work-process-steps > div:nth-child(2) .work-process-details::after {
     display: block;
     width: 164px;
   }
 
-  .work-process-details:nth-child(1)::after {
+  .work-process-steps > div:nth-child(1) .work-process-details::after {
     background-image: url("./assets/work-process-step-1.svg");
   }
 
-  .work-process-details:nth-child(2)::after {
+  .work-process-steps > div:nth-child(2) .work-process-details::after {
     background-image: url("./assets/work-process-step-2.svg");
   }
 }
 
 @media (min-width: 1280px) {
-  .work-process-details:nth-child(1)::after,
-  .work-process-details:nth-child(2)::after {
+  .work-process-steps > div:nth-child(1) .work-process-details::after,
+  .work-process-steps > div:nth-child(2) .work-process-details::after {
     width: 212px;
   }
 }
 
 @media (min-width: 1536px) {
-  .work-process-details:nth-child(1)::after,
-  .work-process-details:nth-child(2)::after {
+  .work-process-steps > div:nth-child(1) .work-process-details::after,
+  .work-process-steps > div:nth-child(2) .work-process-details::after {
     left: 80px;
   }
 }

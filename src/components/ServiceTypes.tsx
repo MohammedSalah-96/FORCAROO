@@ -16,7 +16,7 @@ const ServiceTypes = ({
   const truncatedDescription =
     description?.length > 120 ? description?.slice(0, 120) : description;
   return (
-    <div className="home-service-type bg-slate-100 border border-slate-300/60 rounded-lg shadow-md transition-all duration-500 hover:bg-forcarooLightGreen/85 hover:-translate-y-2 select-none group relative after:absolute after:bottom-0 after:left-[12.5%] after:h-1 after:w-3/4 after:bg-forcarooLightGreen after:rounded-sm after:hover:bg-slate-50">
+    <div className="home-service-type h-full bg-slate-100 border border-slate-300/60 rounded-lg shadow-md transition-all duration-500 hover:bg-forcarooLightGreen/85 hover:-translate-y-2 select-none group relative after:absolute after:bottom-0 after:left-[12.5%] after:h-1 after:w-3/4 after:bg-forcarooLightGreen after:rounded-sm after:hover:bg-slate-50">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 h-full w-full flex justify-center items-center z-10">
         <img
           src={EnergyIcon}

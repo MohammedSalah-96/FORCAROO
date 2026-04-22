@@ -2,6 +2,7 @@ import i18next from "i18next";
 import { trustedPartners } from "../data";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { motion } from "motion/react";
 
 import "swiper/swiper-bundle.css";
 import { useTranslation } from "react-i18next";
@@ -9,8 +10,13 @@ import { useTranslation } from "react-i18next";
 const TrustedPartners = () => {
   const { t } = useTranslation();
   return (
-    <div className="trusted-partners w-full mb-16 py-16 bg-slate-100">
-      <div className="container mx-auto flex flex-col justify-center items-start gap-4 md:gap-10 relative">
+    <div className="trusted-partners w-full mb-16 py-16 bg-slate-100 overflow-hidden">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="container mx-auto flex flex-col justify-center items-start gap-4 md:gap-10 relative"
+      >
         <span className="watermark">{t("trustedPartners.name")}</span>
         <h4 className="py-1 px-6 bg-forcarooLightGreen text-slate-200 rounded-lg font-extrabold capitalize z-10">
           {t("trustedPartners.title")}
@@ -21,8 +27,13 @@ const TrustedPartners = () => {
         <p className="text-forcarooTextLight">
           {t("trustedPartners.description")}
         </p>
-      </div>
-      <div className="trusted-partners-logo max-h-[95px] [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)] mt-8">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.3 }}
+        className="trusted-partners-logo max-h-[95px] [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)] mt-8"
+      >
         <Swiper
           // React will treat the Swiper as a "new" component every time i18n.language changes, preventing disappearance issues. we force Swiper to re-render properly.
           key={i18next.language}
@@ -74,7 +85,7 @@ const TrustedPartners = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </motion.div>
     </div>
   );
 };

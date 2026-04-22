@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { productsFilter} from "../data";
+import { productsFilter } from "../data";
 
 import { motion, AnimatePresence } from "motion/react";
 import {
@@ -45,8 +45,13 @@ const Products = () => {
   };
 
   return (
-    <div className="products-details container mx-auto px-4 py-20 relative">
-      <div className="flex flex-col justify-center items-start gap-4 md:gap-10 relative">
+    <div className="products-details container mx-auto px-4 py-20 relative overflow-hidden">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="flex flex-col justify-center items-start gap-4 md:gap-10 relative"
+      >
         <span className="watermark">{t("navLinks.products")}</span>
         <h4 className="py-1 px-6 bg-forcarooLightGreen text-slate-200 rounded-lg font-extrabold capitalize z-10">
           {t("productsCompany.title")}
@@ -57,7 +62,7 @@ const Products = () => {
         <p className="text-forcarooTextLight">
           {t("productsCompany.description")}
         </p>
-      </div>
+      </motion.div>
 
       <div className="my-0 lg:mt-8 p-8">
         <div className="w-full lg:hidden">

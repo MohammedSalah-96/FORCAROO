@@ -1,23 +1,23 @@
 import { IconType } from "react-icons/lib";
 
 export interface NavbarLinksProps {
-  name: string,
-  path: string
+  name: string;
+  path: string;
 }
 
 export interface HomeSliderContentProps {
-  title: string,
-  description: string,
-  imgSrc: string,
+  title: string;
+  description: string;
+  imgSrc: string;
 }
 
 export interface ServiceTypesProps {
-  id: number,
-  imgSrc: string,
-  imgWidth: number,
-  service: string,
-  title: string,
-  description: string,
+  id: number;
+  imgSrc: string;
+  imgWidth: number;
+  service: string;
+  title: string;
+  description: string;
 }
 
 export interface FactsCounterDetailsProps {
@@ -36,27 +36,31 @@ export interface WorkProcessDetailsProps {
 }
 
 export interface BlogProps {
-  id: number,
-  title: string,
-  description: string,
-  deeperDescription: string
+  id: number;
+  title: string;
+  description: string;
+  deeperDescription: string;
+  img?: string;
+  category?: string;
+  day?: string;
+  month?: string;
 }
 
 export interface ProjectProps {
-  id: number,
-  year: number,
-  customer: string,
-  location: string,
-  inverter: string,
-  pv: string,
-  battery: string,
-  imgUrl: string,
-  projectsIcon: string,
-  projectDateIcon: string,
-  projectLocationIcon: string,
-  projectInverterIcon: string,
-  projectPanelIcon: string,
-  projectBatteryIcon: string,
+  id: number;
+  year: number;
+  customer: string;
+  location: string;
+  inverter: string;
+  pv: string;
+  battery: string;
+  imgUrl: string;
+  projectsIcon: string;
+  projectDateIcon: string;
+  projectLocationIcon: string;
+  projectInverterIcon: string;
+  projectPanelIcon: string;
+  projectBatteryIcon: string;
 }
 
 export interface ProjectDetailsProps {
@@ -64,7 +68,7 @@ export interface ProjectDetailsProps {
 }
 
 export interface TrustedPartnersProps {
-  id: number,
-  imgUrl: string,
-  imgWidth: string
+  id: number;
+  imgUrl: string;
+  imgWidth: string;
 }

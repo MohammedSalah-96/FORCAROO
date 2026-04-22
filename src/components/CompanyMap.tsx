@@ -12,10 +12,11 @@ const CompanyMap = () => {
       zoom: zoomLevel,
       dragging: true,
       scrollWheelZoom: true,
+      attributionControl: false,
     });
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: "© OpenStreetMap contributors",
+      attribution: " © OpenStreetMap contributors",
     }).addTo(map);
 
     // Define the custom red marker icon
