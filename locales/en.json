@@ -9,6 +9,7 @@
     "projects": "Projects",
     "services": "Services",
     "products": "Products",
+    "builder": "System Builder",
     "blog": "Blog",
     "contact": "Contact"
   },
@@ -328,9 +329,59 @@
   },
   "emulator": {
     "name": "Emulator",
-    "title": "Solar Savings Calculator",
-    "heading": "Estimate Your Solar Savings",
-    "description": "Use our solar savings calculator to estimate how much you can save by switching to solar energy. Simply enter your location, average monthly electricity usage, and current energy costs to see your potential savings and environmental impact. This tool helps you understand the financial benefits of going solar and how it contributes to a greener future.",
+    "title": "Solar System Configurator",
+    "heading": "Build Your System, See The Numbers",
+    "description": "Pick the panels, batteries and inverter you have in mind and watch the whole system come to life. The configurator sizes your array, checks it against your inverter, and estimates yearly production, savings, payback time and CO₂ avoided.",
+    "hint": "Everything updates live as you change your setup.",
+    "builderLink": "Prefer it step by step? Open the guided builder",
+    "sector": {
+      "label": "Use case",
+      "residential": "Residential",
+      "industrial": "Commercial",
+      "residentialNote": "Home rooftop · 5.2 peak sun hours · $0.16 / kWh",
+      "industrialNote": "Factory & warehouse · 5.8 peak sun hours · $0.12 / kWh",
+      "imageAlt": "Preview of a {{sector}} solar installation"
+    },
+    "config": {
+      "panels": "Solar panels",
+      "batteries": "Batteries",
+      "inverters": "Inverters",
+      "selectPanel": "Select a panel",
+      "selectBattery": "Select a battery",
+      "selectInverter": "Select an inverter",
+      "quantity": "{{item}} quantity",
+      "decrease": "Remove one {{item}}",
+      "increase": "Add one {{item}}",
+      "subtotal": "Subtotal",
+      "reset": "Reset"
+    },
+    "metrics": {
+      "title": "Power matrix",
+      "live": "Live estimate",
+      "arrayPotential": "Array potential (DC)",
+      "usableOutput": "Usable output (AC)",
+      "inverterCap": "Inverter cap",
+      "efficiencyNote": "{{value}}% system efficiency",
+      "annualProduction": "Annual production",
+      "annualSavings": "Annual savings",
+      "payback": "Payback time",
+      "co2": "CO₂ avoided",
+      "backup": "Backup time",
+      "storage": "Storage",
+      "totalPrice": "Estimated total",
+      "years": "yrs",
+      "hours": "hrs",
+      "tonsPerYear": "t / year",
+      "kwhPerYear": "kWh / year"
+    },
+    "status": {
+      "balanced": "Well-matched system",
+      "noPanels": "Add panels to start generating",
+      "noInverter": "Add an inverter to convert your solar power",
+      "inverterSmall": "Your inverter is capping the output",
+      "inverterLarge": "Your inverter has room for more panels"
+    },
+    "disclaimer": "Estimates only. Real output depends on your site, roof orientation, shading and local tariffs. Talk to us for an exact quote.",
     "location": "Location",
     "usage": "Average Monthly Usage (kWh)",
     "cost": "Current Energy Cost ($/kWh)",
@@ -338,6 +389,52 @@
     "savingsResult": {
       "annualSavings": "Estimated Annual Savings: ",
       "co2Reduction": "Estimated CO2 Reduction: "
+    }
+  },
+  "builder": {
+    "name": "Builder",
+    "title": "Guided System Builder",
+    "heading": "Design It Step By Step, Then See It Drawn",
+    "description": "The same panels, batteries and inverters as the configurator — this time one decision at a time. Walk through your use case, your array, your storage and your inverter, and the final step draws the exact system you specified on a real home or a real commercial building.",
+    "hint": "Every single unit you pick is drawn on the roof and in the equipment yard.",
+    "steps": {
+      "sector": "Use case",
+      "panels": "Panels",
+      "batteries": "Storage",
+      "inverters": "Inverter",
+      "review": "Blueprint"
+    },
+    "stepOf": "Step {{current}} of {{total}}",
+    "next": "Continue",
+    "back": "Back",
+    "startOver": "Start over",
+    "seeBlueprint": "Draw my system",
+    "requirePanels": "Add at least one panel to continue",
+    "requireInverter": "Add at least one inverter to continue",
+    "sector": {
+      "title": "Where is this system going?",
+      "description": "This sets the sun hours, the electricity tariff and the average load behind every number — and decides whether we draw a home rooftop or a commercial building."
+    },
+    "select": {
+      "panelsTitle": "Choose your solar panels",
+      "panelsDescription": "Pick a panel model, then how many go on the roof. Each one is drawn on your building in the final step.",
+      "panelsFooter": "Array potential so far: {{value}} kW DC.",
+      "batteriesTitle": "Add storage (optional)",
+      "batteriesDescription": "Batteries keep your power on after sunset and through outages. Skip this step if you only want daytime production.",
+      "batteriesFooter": "That covers roughly {{value}} hours of your average load.",
+      "batteriesOptional": "No storage selected — your system will cover daytime loads only.",
+      "skipStorage": "Skip storage",
+      "invertersTitle": "Choose your inverter",
+      "invertersDescription": "The inverter turns DC into usable AC power. Size it close to your array so nothing is left on the roof.",
+      "howMany": "How many {{item}}?",
+      "nothingYet": "Nothing selected yet"
+    },
+    "review": {
+      "sceneTitle": "Your system, drawn",
+      "sceneAlt": "Drawing of a {{sector}} solar installation with {{panels}} panels, {{inverters}} inverters and {{batteries}} batteries",
+      "summaryTitle": "What you picked",
+      "more": "{{value}} more units are not drawn — every number above still counts them.",
+      "cta": "Request an exact quote"
     }
   }
 }

@@ -1,5 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router";
-import { About, Blog, Contact, Home, Products, Services } from "./pages";
+import {
+  About,
+  Blog,
+  Contact,
+  Home,
+  Products,
+  Services,
+  SystemBuilder,
+} from "./pages";
 import Layout from "./components/Layout/Layout";
 import NotFound from "./components/NotFound";
 import ServiceDetails from "./components/ServiceDetails";
@@ -16,6 +24,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/services/:serviceId" element={<ServiceDetails />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/system-builder" element={<SystemBuilder />} />
           <Route path="/products/:productId" element={<ProductDetails />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:blogId" element={<BlogDetails />} />

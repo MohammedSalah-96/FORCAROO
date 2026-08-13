@@ -41,6 +41,7 @@ export const useLocalizedData = () => {
     { name: t("navLinks.about"), path: "/about" },
     { name: t("navLinks.products"), path: "/products" },
     { name: t("navLinks.services"), path: "/services" },
+    { name: t("navLinks.builder"), path: "/system-builder" },
     // { name: t('navLinks.blog'), path: "/blog" },
     { name: t("navLinks.contact"), path: "/contact" },
   ];
@@ -93,6 +94,7 @@ export const useLocalizedData = () => {
       price: 399.0,
       category: "inverter",
       rating: 4.6,
+      max: 3,
       productImg: ProductsImg3,
     },
     {
@@ -102,6 +104,7 @@ export const useLocalizedData = () => {
       price: 599.0,
       category: "inverter",
       rating: 4.8,
+      max: 5,
       productImg: ProductsImg4,
     },
     {
@@ -111,6 +114,7 @@ export const useLocalizedData = () => {
       price: 499.0,
       category: "inverter",
       rating: 4.6,
+      max: 7,
       productImg: ProductsImg5,
     },
     {
@@ -121,6 +125,7 @@ export const useLocalizedData = () => {
       price: 950.0,
       category: "battery",
       rating: 4.4,
+      capacity: 5,
       productImg: ProductsImg6,
     },
     {
@@ -131,6 +136,7 @@ export const useLocalizedData = () => {
       price: 360.0,
       category: "battery",
       rating: 4.2,
+      capacity: 2,
       productImg: ProductsImg7,
     },
     {
@@ -141,6 +147,7 @@ export const useLocalizedData = () => {
       price: 260.0,
       category: "battery",
       rating: 4.6,
+      capacity: 3,
       productImg: ProductsImg8,
     },
     {

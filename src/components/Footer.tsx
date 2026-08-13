@@ -76,9 +76,7 @@ const Footer = () => {
               <div className="flex items-center gap-4">
                 <PiEnvelopeLight className="h-10 w-10 py-2 bg-forcarooLightGreen text-slate-200 rounded" />
                 <div>
-                  <h6 className="text-forcarooTextLight">
-                    info@alrajulalqawe.com
-                  </h6>
+                  <h6 className="text-forcarooTextLight">info@forcaroo.com</h6>
                 </div>
               </div>
               <div className="flex items-center gap-4">

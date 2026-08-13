@@ -13,31 +13,31 @@ const ShareSolarMap = () => {
     {
       id: "iraq",
       name: "Iraq",
-      mw: 5,
+      mw: 1,
       coords: [33.3152, 44.3661] as L.LatLngTuple,
     },
     {
       id: "uae",
       name: "UAE",
-      mw: 165,
+      mw: 10,
       coords: [24.4539, 54.3773] as L.LatLngTuple,
     },
     {
       id: "vietnam",
       name: "Vietnam",
-      mw: 70,
+      mw: 2,
       coords: [14.0583, 108.2772] as L.LatLngTuple,
     },
     {
       id: "china",
       name: "China",
-      mw: 150,
+      mw: 4,
       coords: [35.8617, 104.1954] as L.LatLngTuple,
     },
     {
       id: "south-africa",
       name: "South Africa",
-      mw: 100,
+      mw: 2,
       coords: [-30.5595, 22.9375] as L.LatLngTuple,
     },
   ];
@@ -127,7 +127,9 @@ const ShareSolarMap = () => {
           <h2 className="text-forcarooText text-2xl md:text-4xl font-extrabold capitalize">
             {t("shareSolarMap.heading")}
           </h2>
-          <p className="text-forcarooTextLight">{t("shareSolarMap.description")}</p>
+          <p className="text-forcarooTextLight">
+            {t("shareSolarMap.description")}
+          </p>
         </motion.div>
 
         <motion.div
