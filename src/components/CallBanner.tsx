@@ -1,7 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { twMerge } from "tailwind-merge";
-import { BiPhoneCall } from "react-icons/bi";
+import { PiEnvelopeLight } from "react-icons/pi";
+import { IoLocationOutline } from "react-icons/io5";
 import { motion } from "motion/react";
+
+const CONTACT_EMAIL = "info@forcaroo.com";
 
 const CallBanner = ({ addClass }: { addClass?: string }) => {
   const { t } = useTranslation();
@@ -36,10 +39,11 @@ const CallBanner = ({ addClass }: { addClass?: string }) => {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              href="tel:+9647704455744"
-              className="h-16 lg:h-20 w-16 lg:w-20 flex justify-center items-center bg-slate-50 rounded-full group"
+              href={`mailto:${CONTACT_EMAIL}`}
+              aria-label={t("callBanner.emailTxt")}
+              className="h-16 lg:h-20 w-16 lg:w-20 flex justify-center items-center bg-slate-50 rounded-full group shrink-0"
             >
-              <BiPhoneCall className="banner-call-icon text-forcarooLightGreen text-2xl lg:text-4xl transition-all duration-300 group-hover:text-forcarooLightGreen" />
+              <PiEnvelopeLight className="banner-call-icon text-forcarooLightGreen text-3xl lg:text-5xl transition-all duration-300 group-hover:text-forcarooLightGreen" />
             </motion.a>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
@@ -47,14 +51,19 @@ const CallBanner = ({ addClass }: { addClass?: string }) => {
               transition={{ duration: 0.5, delay: 0.4 }}
             >
               <h6 className="text-slate-100 font-semibold">
-                {t("callBanner.supportTxt")} 24/7
+                {t("callBanner.emailTxt")}
               </h6>
-              <h4
-                className="mt-2 text-slate-100 text-xl font-bold tracking-wider"
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="mt-2 block text-slate-100 text-lg lg:text-xl font-bold tracking-wider underline-offset-4 transition-opacity duration-300 hover:opacity-80 hover:underline"
                 dir="ltr"
               >
-                +964 750 444 4444
-              </h4>
+                {CONTACT_EMAIL}
+              </a>
+              <p className="mt-2 flex items-center gap-1.5 text-slate-100/90 text-sm">
+                <IoLocationOutline className="shrink-0" aria-hidden="true" />
+                {t("footer.address")}
+              </p>
             </motion.div>
           </div>
         </motion.div>

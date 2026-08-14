@@ -32,7 +32,7 @@ const HomeWhyChooseUs = () => {
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
-            className="home-choose-us-left h-full w-full flex flex-col items-start justify-center gap-5 ps-8 bg-slate-100"
+            className="home-choose-us-left h-full w-full flex flex-col items-start justify-center gap-5 ps-0 lg:ps-8 bg-slate-100"
           >
             <div className="flex flex-col justify-center items-start gap-4 md:gap-10 relative">
               <span className="watermark">{t("whyChooseUs.name")}</span>
@@ -48,7 +48,10 @@ const HomeWhyChooseUs = () => {
               >
                 {t("whyChooseUs.heading")}
               </motion.h2>
-              <motion.p variants={itemVariants} className="text-forcarooTextLight">
+              <motion.p
+                variants={itemVariants}
+                className="text-forcarooTextLight"
+              >
                 {t("whyChooseUs.description")}
               </motion.p>
             </div>

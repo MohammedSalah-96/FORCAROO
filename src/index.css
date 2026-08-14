@@ -367,8 +367,8 @@ footer {
 
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
-  background: #ffc80b !important;
-  color: #000 !important;
+  background: #00adae !important;
+  color: #0c0c0c !important;
 }
 
 .leaflet-popup-content-wrapper {

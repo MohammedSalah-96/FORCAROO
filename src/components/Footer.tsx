@@ -2,7 +2,6 @@ import { FaMeta } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { TbBrandYoutube } from "react-icons/tb";
 import Icon from "/logo.png";
-import { SlScreenSmartphone } from "react-icons/sl";
 import { PiEnvelopeLight } from "react-icons/pi";
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router";
@@ -62,17 +61,6 @@ const Footer = () => {
               {t("footer.contactus")}
             </h4>
             <div className="flex flex-col gap-4">
-              <div className="flex items-center gap-4">
-                <SlScreenSmartphone className="h-10 w-10 py-2 bg-forcarooLightGreen text-slate-200 rounded" />
-                <div>
-                  <h6 className="text-forcarooTextLight" dir="ltr">
-                    +964 750 000 0000
-                  </h6>
-                  {/* <h6 className="text-forcarooTextLight" dir="ltr">
-                    +964 770 000 0000
-                  </h6> */}
-                </div>
-              </div>
               <div className="flex items-center gap-4">
                 <PiEnvelopeLight className="h-10 w-10 py-2 bg-forcarooLightGreen text-slate-200 rounded" />
                 <div>

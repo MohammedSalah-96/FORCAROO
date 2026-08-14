@@ -13,31 +13,31 @@ const ShareSolarMap = () => {
     {
       id: "iraq",
       name: "Iraq",
-      mw: 1,
+      mw: 2,
       coords: [33.3152, 44.3661] as L.LatLngTuple,
     },
     {
       id: "uae",
       name: "UAE",
-      mw: 10,
+      mw: 5,
       coords: [24.4539, 54.3773] as L.LatLngTuple,
     },
-    {
-      id: "vietnam",
-      name: "Vietnam",
-      mw: 2,
-      coords: [14.0583, 108.2772] as L.LatLngTuple,
-    },
-    {
-      id: "china",
-      name: "China",
-      mw: 4,
-      coords: [35.8617, 104.1954] as L.LatLngTuple,
-    },
+    // {
+    //   id: "vietnam",
+    //   name: "Vietnam",
+    //   mw: 2,
+    //   coords: [14.0583, 108.2772] as L.LatLngTuple,
+    // },
+    // {
+    //   id: "china",
+    //   name: "China",
+    //   mw: 4,
+    //   coords: [35.8617, 104.1954] as L.LatLngTuple,
+    // },
     {
       id: "south-africa",
       name: "South Africa",
-      mw: 2,
+      mw: 1,
       coords: [-30.5595, 22.9375] as L.LatLngTuple,
     },
   ];

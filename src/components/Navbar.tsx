@@ -53,19 +53,6 @@ const Navbar = ({ position = "fixed" }: { position?: string }) => {
             <FaEnvelope className="text-forcarooLightGreen" />
             <span className="text-slate-50 text-sm">info@forcaroo.com</span>
           </div>
-          <div
-            className={`phone flex items-center justify-center gap-1 ${
-              i18n.language !== "en" && "flex-row-reverse"
-            }`}
-          >
-            <FaPhoneAlt className="text-forcarooLightGreen" />
-            <span
-              dir={`${i18n.language !== "en" && "ltr"}`}
-              className="text-slate-50 text-sm"
-            >
-              +964 770 445 5744
-            </span>
-          </div>
         </div>
         <div className="info-social hidden md:flex items-center justify-center gap-2">
           <Link

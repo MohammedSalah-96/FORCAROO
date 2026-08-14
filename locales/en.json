@@ -156,7 +156,7 @@
   "callBanner": {
     "titleOne": "Need Expert Advice?",
     "titleTwo": "Get It Here for Free",
-    "supportTxt": "Give us a call"
+    "emailTxt": "Write to us anytime"
   },
   "whyChooseUs": {
     "name": "Choose Us",
@@ -260,8 +260,8 @@
   },
   "footer": {
     "description": "Driving progress through smart trading, clean energy, and seamless logistics—powering businesses with efficiency and purpose.",
-    "contactus": "Conatct Us",
-    "address": "Iraq, Kurdistan, Erbil",
+    "contactus": "Contact Us",
+    "address": "Iraq-Kurdistan Branch",
     "navigation": "Navigation",
     "ourservices": "Our Services",
     "copyright": "Copyright All rights reserved | Developed with ❤️ by"

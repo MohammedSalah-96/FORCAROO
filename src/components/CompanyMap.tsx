@@ -35,7 +35,7 @@ const CompanyMap = () => {
 
     L.marker(coordinates, { icon: redIcon })
       .addTo(map)
-      .bindPopup("forcaroo COMPANY")
+      .bindPopup("Forcaroo Company")
       .openPopup();
 
     map.invalidateSize();
